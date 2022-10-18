@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Consumidor RabbitMQ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Teste - RabbitMQ</h1>
+
+    <p>Connected to RabbitMQ Server: @ViewData.Eval("Host")</p>
+    <p>Listening on port: @ViewData.Eval("Port")</p>
+</div>
